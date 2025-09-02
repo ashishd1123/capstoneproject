@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* In your index.css or App.css file */
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@400;500;700&display=swap');
+
+/* Apply the font globally */
+body {
+  font-family: 'Gelasio', 'Gelasio Fallback', ui-serif, Georgia, serif;
+}
